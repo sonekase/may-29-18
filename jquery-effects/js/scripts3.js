@@ -1,16 +1,16 @@
 $(document).ready(function() {
   $("#pizza").fadeIn();
   $(".clickable1").click(function(){
-    $(".pizza-showing1").show();
-    $(".pizza-hidden1").hide();
+    $(".pizza-showing1").toggle();
+    $(".pizza-hidden1").toggle();
   });
   $(".clickable2").click(function(){
-    $(".pizza-showing2").show();
-    $(".pizza-hidden2").hide();
+    $(".pizza-showing2").toggle();
+    $(".pizza-hidden2").toggle();
   });
   $(".clickable3").click(function(){
-    $(".pizza-showing3").show();
-    $(".pizza-hidden3").hide();
+    $(".pizza-showing3").toggle();
+    $(".pizza-hidden3").toggle();
   });
 
   $("button#green").click(function() {
@@ -22,7 +22,6 @@ $(document).ready(function() {
     $("body").addClass("yellow-background");
   });
   $("button#red").click(function() {
-    $("body").removeClass();
-    $("body").addClass ("red-background");
+    $("body").toggleClass("red-background");
   });
 });

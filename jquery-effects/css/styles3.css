@@ -1,11 +1,22 @@
+img {
+  width: 100%;
+}
+
 .container {
   text-align: center;
-  font-family: baskerville;
-  font-size: 30px;
+  font-family: skia;
+  font-size: 35px;
+  color: gray;
+}
+
+.container p {
+  font-size: 20px;
 }
 
 #pizza {
   display: none;
+  color: gray;
+  font-size: 40px;
 }
 #pizza1 {
   display: none;
@@ -23,6 +34,18 @@
   display: none;
 }
 
+.clickable1:hover {
+  color: yellow;
+}
+
+.clickable2:hover {
+  color: red;
+}
+
+.clickable3:hover {
+  color: green;
+}
+
 .green-background {
   background-color: green;
 }
@@ -33,4 +56,5 @@
 
 .red-background {
   background-color: red;
+  color: black;
 }
