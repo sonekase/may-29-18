@@ -6,7 +6,6 @@ img {
   text-align: center;
   font-family: skia;
   font-size: 35px;
-  color: gray;
 }
 
 .container p {
@@ -48,13 +47,15 @@ img {
 
 .green-background {
   background-color: green;
+  color: yellow;
 }
 
 .yellow-background {
   background-color: yellow;
+  color: red;
 }
 
 .red-background {
   background-color: red;
-  color: black;
+  color: #FFF;
 }
