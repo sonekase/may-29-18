@@ -4,3 +4,6 @@ $(document).ready(function() {
     $("#walrus-hidden").toggle();
   });
 });
+$(document).ready(function() {
+  $(".headingfader").fadeIn().delay( 8000 ).fadeOut();
+});

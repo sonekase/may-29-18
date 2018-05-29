@@ -1,0 +1,26 @@
+#pizza {
+  display: none;
+}
+#pizza1 {
+  display: none;
+}
+
+.pizza-showing1 {
+ display: none;
+}
+
+.pizza-showing2 {
+ display: none;
+}
+
+.pizza-showing3{
+  display: none;
+}
+
+#fadein {
+
+}
+
+#fadeout {
+
+}
